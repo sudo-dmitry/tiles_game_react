@@ -1,11 +1,11 @@
 import React from 'react';
 import './Card.css';
 
-const Card = ({ name, style, cardClick, flipped, correct, fasFab }) => {
+const Card = ({ name, style, cardClick, flipped, correct, fasFab, canClick }) => {
 	return (
 		<div
 			className={`card ${flipped ? 'flip' : ''} ${correct ? 'correct' : ''}`}
-			onClick={cardClick}
+			onClick={canClick ? cardClick : null}
 			data-card={name}>
 			<div className="back"></div>
 			<i className={`front ${fasFab} fa-${style || name} fa-5x`}></i>

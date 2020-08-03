@@ -18,10 +18,10 @@ const App = () => {
 
 		if (!flipped && !cardOne) {
 			cardOne = card
-			setFlippedCard(id, true);
+			setFlippedCard(id, true, false);
 		} else {
 			cardTwo = card;
-			setFlippedCard(id, true);
+			setFlippedCard(id, true, false);
 			matchCheck();
 		}
 	};
@@ -51,10 +51,10 @@ const App = () => {
 		}
 	};
 
-	const setFlippedCard = (id, flipped) => {
+	const setFlippedCard = (id, flipped, canClick) => {
 		setCards(cards.map(card => {
 			if (card.id !== id) return card;
-			return { ...card, flipped }
+			return { ...card, flipped, canClick }
 		}))
 	};
 
@@ -82,6 +82,7 @@ const App = () => {
 					flipped={card.flipped}
 					correct={card.correct}
 					fasFab={card.fasFab}
+					canClick={card.canClick}
 					cardClick={() => cardClick(card)}
 				 />
 				)}
