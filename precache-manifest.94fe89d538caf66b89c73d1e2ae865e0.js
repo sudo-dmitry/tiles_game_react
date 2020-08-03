@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3b8475058bdf00eb7ed735f6f8ef9d5",
+    "revision": "dc8f31a0204a190a812fdf1c36aa7be4",
     "url": "/tiles_game_react/index.html"
   },
   {
-    "revision": "5170f756e3c213264727",
+    "revision": "8f505d0dbf95f59bd76c",
     "url": "/tiles_game_react/static/css/main.a364528c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tiles_game_react/static/js/2.5948b4c7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5170f756e3c213264727",
-    "url": "/tiles_game_react/static/js/main.dbabcbd6.chunk.js"
+    "revision": "8f505d0dbf95f59bd76c",
+    "url": "/tiles_game_react/static/js/main.e941e9ea.chunk.js"
   },
   {
     "revision": "aa895a5e64dcd376d9c9",
