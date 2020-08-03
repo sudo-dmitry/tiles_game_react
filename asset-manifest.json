@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tiles_game_react/static/css/main.a364528c.chunk.css",
+    "main.js": "/tiles_game_react/static/js/main.dbabcbd6.chunk.js",
+    "main.js.map": "/tiles_game_react/static/js/main.dbabcbd6.chunk.js.map",
+    "runtime-main.js": "/tiles_game_react/static/js/runtime-main.73026620.js",
+    "runtime-main.js.map": "/tiles_game_react/static/js/runtime-main.73026620.js.map",
+    "static/js/2.5948b4c7.chunk.js": "/tiles_game_react/static/js/2.5948b4c7.chunk.js",
+    "static/js/2.5948b4c7.chunk.js.map": "/tiles_game_react/static/js/2.5948b4c7.chunk.js.map",
+    "index.html": "/tiles_game_react/index.html",
+    "precache-manifest.7f5c52de53083228e41a65d771619a74.js": "/tiles_game_react/precache-manifest.7f5c52de53083228e41a65d771619a74.js",
+    "service-worker.js": "/tiles_game_react/service-worker.js",
+    "static/css/main.a364528c.chunk.css.map": "/tiles_game_react/static/css/main.a364528c.chunk.css.map",
+    "static/js/2.5948b4c7.chunk.js.LICENSE.txt": "/tiles_game_react/static/js/2.5948b4c7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73026620.js",
+    "static/js/2.5948b4c7.chunk.js",
+    "static/css/main.a364528c.chunk.css",
+    "static/js/main.dbabcbd6.chunk.js"
+  ]
+}
