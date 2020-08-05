@@ -28,6 +28,7 @@ const App = () => {
 
 	const matchCheck = () => {
 		if (cardOne.name === cardTwo.name) {
+			setPause(true);
 			setTimeout(() => {
 				setCards(cards.map(card => {
 					if (cardOne.id === card.id) return {...cardOne, correct: true}
